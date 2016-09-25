@@ -1,0 +1,12 @@
+#ikushum_image_slider{
+	overflow: hidden;
+	width:1000px;
+	height:850px;
+	margin:0px auto;
+}
+img.ikushum_image{
+	position: absolute;
+	width:1000px;
+	display: none;
+}
+
