@@ -22,7 +22,7 @@ $(document).ready(function(){
 			if(e.keyCode==37){ //left key
 				move="left";
 			}
-  			else if(e.keyCode==39)
+  			else if(e.keyCode==39) //right
   				move="right";
   		});
 
