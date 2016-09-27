@@ -9,3 +9,18 @@ img.ikushum_image{
 	display: none;
 }
 
+a{
+	position: relative;
+	font-size:30px;
+	cursor:pointer;
+}
+
+a#next{
+	float:right;
+	top:45%;
+}
+
+a#prev{
+	top:45%;
+}
+
