@@ -1,8 +1,13 @@
+body{
+	overflow: hidden;
+	font-family: helvetica;
+}
+
 #ikushum_image_slider{
 	overflow: hidden;
 	width:1000px;
-	height:859px;
-	margin:30px auto;
+	height:400px;
+	margin:5% auto;
 	box-shadow: 0 1px 10px 0 #818181,0 1px 10px 0 #ababab;
 }
 
@@ -14,8 +19,8 @@ img.ikushum_image{
 .arrow{
 	position: relative;
 	cursor:pointer;
-	width:45px;
-	height:45px;
+	width:30px;
+	height:32px;
 	opacity:0.3;
 }
 
@@ -33,4 +38,3 @@ img.ikushum_image{
 	top:45%;
 	left:2%;
 }
-
