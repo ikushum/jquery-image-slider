@@ -38,3 +38,18 @@ img.ikushum_image{
 	top:45%;
 	left:2%;
 }
+
+#slider_controller{
+	position:relative;
+	top:85%;
+	left:45%;
+}
+
+.circle{
+	width:16px;
+	height:16px;
+	border-radius:10px;
+	background-color: grey;
+	display: inline-block;
+	margin: 0px auto;
+}
