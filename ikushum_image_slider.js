@@ -28,7 +28,7 @@ function startslideshow(){
 	loop = setInterval(function(){
   		if(img_number==total_image){
 			new_img_number=1;	
-			old_img_number=3;
+			old_img_number=total_image;
 		} else{
 			new_img_number = img_number+1;
 			old_img_number = img_number
@@ -56,7 +56,7 @@ function next(){
 	window.clearInterval(loop);	
 	if(img_number==total_image){
 		new_img_number = 1;
-		old_img_number = 3;
+		old_img_number = total_image;
 	} else {
 		new_img_number=img_number+1;
 		old_img_number = img_number;
