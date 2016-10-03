@@ -5,7 +5,7 @@ var loop;
 
 $(document).ready(function(){
 	$("img#ikushum_image_1").show();
-	$("#circle_"+img_number).css("border","2px solid white");
+	$("#circle_"+img_number).css("border","5px solid black");
 
 
 	total_image = $("#ikushum_image_slider img.ikushum_image").length;
@@ -82,8 +82,8 @@ function prev(){
 }
 
 function slider_controller(){
-	$("#circle_"+new_img_number).css("border","2px solid white");
-	$("#circle_"+(old_img_number)).css("border","none");
+	$("#circle_"+new_img_number).css("border","5px solid black");
+	$("#circle_"+(old_img_number)).css("border","2px solid black");
 }
 
 

@@ -7,7 +7,7 @@ body{
 	overflow: hidden;
 	width:1000px;
 	height:400px;
-	margin:5% auto;
+	margin:5% auto 1% auto;
 	box-shadow: 0 1px 10px 0 #818181,0 1px 10px 0 #ababab;
 }
 
@@ -40,16 +40,15 @@ img.ikushum_image{
 }
 
 #slider_controller{
-	position:relative;
-	top:85%;
-	left:45%;
+	text-align: center;
 }
 
 .circle{
-	width:16px;
-	height:16px;
+	width:10px;
+	height:10px;
 	border-radius:10px;
-	background-color: grey;
+	border:2px solid black;
+	background-color: white;
 	display: inline-block;
 	margin: 0px auto;
 }
